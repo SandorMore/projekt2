@@ -1,5 +1,17 @@
 ﻿namespace Projekt2
 {
+    class Jellemzok
+    {
+        string tipus;
+        string neve;
+        string parameterek;
+        int ar;
+
+        public Jellemzok()
+        {
+
+        }
+    }
     internal class Program
     {
         static void Beiras()
