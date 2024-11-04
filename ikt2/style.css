@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+}
+
+.navbar{
+    padding: 0px 10px 0px 10px;
+}
+
+#cart:hover{
+    cursor: pointer;
+}
+
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 20px;
+    margin: 20px 0px 20px 0px;
+}
+
+.cat-icons{
+    margin: 25px 0px 20px 30px;
+}
+
+.sections{
+    margin: 40px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+
+    .row{
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .gombos{
+        margin-bottom: 20px;
+    }
+}
+
+.kivalasztott{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+}
+
+.gombos{
+    .nemgomb{
+        width: 200px;
+        margin-left: 50px;
+        text-align: center;
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+}
+footer {
+    background-color: #333;
+    background-size: cover;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-socials {
+    margin: 10px 0;
+}
+
+.footer-socials a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+.footer-socials a:hover {
+    color: #ffa500; /* Change to your desired hover color */
+}
+
+p {
+    margin: 10px 0;
+}
