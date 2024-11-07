@@ -10,7 +10,7 @@
     <title>Számítós weboldal</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-gpu-card" viewBox="0 0 16 16">
             <path d="M4 8a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0m7.5-1.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"/>
@@ -29,11 +29,14 @@
             <span id="cart"> <i style="font-size:45px" class="fa">&#xf07a;</i></span>
         </div>
       </nav>
-
+      
       <section id="header">
         <h1>Állitsd össze a saját számítógéped!</h1>
         <span>Kiválasztáshoz kattints az adott alkatrészre</span>
       </section>
+      
+      <!-- Mindegyikhez jo -->
+      <div id="snackbar">Hozzáadva a kosárhoz</div>
 
       <section id="hazsec" class="sections">
         <span class="cat-icons"><svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" fill="currentColor" class="bi bi-pc" viewBox="0 0 16 16">
@@ -41,11 +44,61 @@
             </svg>
         </span>
         <div class="row">
-            <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
-            <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
-            <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
-            <div class="col-3 kivalasztott" id="valasztotthaz"></div>
-        </div>
+            <div class="col-12 col-md-3" id="frst">
+              <div class="card">
+                <img src="testhaz.png" class="card-img-top">
+                <div class="card-body">
+                  <div class="card-title">Cucc neve</div>
+                  <div class="card-text">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">ide</li>
+                      <li class="list-group-item">nehany</li>
+                      <li class="list-group-item">specifikacio</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-3" id="scnd">
+              <div class="card">
+                <img src="testgpu.png" class="card-img-top">
+                <div class="card-body">
+                  <div class="card-title">Cucc2 neve</div>
+                  <div class="card-text">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">ide</li>
+                      <li class="list-group-item">nehany</li>
+                      <li class="list-group-item">specifikacio</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-3" id="thrd">
+              <div class="card">
+                <img src="testcpu.png" class="card-img-top">
+                <div class="card-body">
+                  <div class="card-title">Cucc3 neve</div>
+                  <div class="card-text">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">ide</li>
+                      <li class="list-group-item">nehany</li>
+                      <li class="list-group-item">specifikacio</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-8 col-md-6 col-lg-2 kivalasztott" id="valasztotthaz"></div>
+            </div>
+          <div class="row">
+            <button class="col pbtn" onclick="myFunction()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5"/>
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+              </svg>
+            </button>
+          </div>
       </section>
 
       <section id="lapsec" class="sections">
@@ -58,7 +111,13 @@
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
-            <div class="col-3 kivalasztott" id="valasztottlap"></div>
+            <div class="col-2 kivalasztott" id="valasztottlap"></div>
+            <button class="col-1 pbtn" onclick="myFunction()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5"/>
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+              </svg>
+            </button>
         </div>
       </section>
 
@@ -71,7 +130,13 @@
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
-            <div class="col-3 kivalasztott" id="valasztottcpu"></div>
+            <div class="col-2 kivalasztott" id="valasztottcpu"></div>
+            <button class="col-1 pbtn" onclick="myFunction()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5"/>
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+              </svg>
+            </button>
         </div>
       </section>
       
@@ -84,7 +149,13 @@
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
-            <div class="col-3 kivalasztott" id="valasztotttap"></div>
+            <div class="col-2 kivalasztott" id="valasztotttap"></div>
+            <button class="col-1 pbtn" onclick="myFunction()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5"/>
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+              </svg>
+            </button>
         </div>
       </section>
 
@@ -99,7 +170,13 @@
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
-            <div class="col-3 kivalasztott" id="valasztottgpu"></div>
+            <div class="col-2 kivalasztott" id="valasztottgpu"></div>
+            <button class="col-1 pbtn" onclick="myFunction()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5"/>
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+              </svg>
+            </button>
         </div>
       </section>
 
@@ -113,7 +190,13 @@
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
-            <div class="col-3 kivalasztott" id="valasztottram"></div>
+            <div class="col-2 kivalasztott" id="valasztottram"></div>
+            <button class="col-1 pbtn" onclick="myFunction()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5"/>
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+              </svg>
+            </button>
         </div>
       </section>
 
@@ -127,7 +210,13 @@
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
-            <div class="col-3 kivalasztott" id="valasztottmemory"></div>
+            <div class="col-2 kivalasztott" id="valasztottmemory"></div>
+            <button class="col-1 pbtn" onclick="myFunction()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5"/>
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+              </svg>
+            </button>
         </div>
       </section>
 
@@ -143,7 +232,13 @@
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
-            <div class="col-3 kivalasztott" id="valasztottmonitor"></div>
+            <div class="col-2 kivalasztott" id="valasztottmonitor"></div>
+            <button class="col-1 pbtn" onclick="myFunction()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5"/>
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+              </svg>
+            </button>
         </div>
       </section>
 
@@ -160,7 +255,13 @@
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
-            <div class="col-3 kivalasztott" id="valasztottbill"></div>
+            <div class="col-2 kivalasztott" id="valasztottbill"></div>
+            <button class="col-1 pbtn" onclick="myFunction()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5"/>
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+              </svg>
+            </button>
         </div>
       </section>
 
@@ -176,7 +277,13 @@
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
             <div class="col-3"><img src="testhaz.png" width="100px" height="100px"></div>
-            <div class="col-3 kivalasztott" id="valasztotteger"></div>
+            <div class="col-2 kivalasztott" id="valasztotteger"></div>
+            <button class="col-1 pbtn" onclick="myFunction()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5"/>
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+              </svg>
+            </button>
         </div>
       </section>
 
@@ -192,6 +299,6 @@
         </div>
     </footer>
     
-    <script src="website.js"></script>
+    <script src="website.js" defer></script>
 </body>
 </html>
