@@ -1,0 +1,55 @@
+@font-face{
+    font-family: "BigPixel";
+    src: url(Big\ Pixel\ demo.otf);
+}
+body{
+    font-family: "BigPixel";
+}
+.navbar_c {
+    height: 8%;
+    border-radius: 4vh;
+    margin:0 5% 0 5%; 
+    width: 100%;
+}
+#logo_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:6vh ;
+    width: 250px;
+    background-color: white;
+    border-radius: 3vh;
+}
+#logo {
+    height: 5vh;
+    width: 223px;
+}
+.nav-togler{
+    height: 6vh;
+    width: 6vh;
+    border-radius: 3vh;
+    background-color: white;
+    border: none;
+    img{
+        height: 4vh;
+        width: 4vh
+    };
+}
+.text{
+    margin: 0 10% 0 10%;
+    text-align: justify;
+}
+#pc_setup{
+    margin-left: 15px;
+}
+hr{
+    margin: 10px 10% 10px 10%;
+    border: 3px solid black;
+    border-radius: 2px;
+}
+footer{
+    padding: 10px;
+    margin:0 5% 0 5%; 
+    border-radius: 4vh;
+    background-color: #f0f500;
+}
