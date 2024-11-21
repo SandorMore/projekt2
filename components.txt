@@ -1,0 +1,70 @@
+alaplap;ASUS ROG Strix B550-F Gaming;chipset:AMD B550,foglalat:Socket-AM4,memória:4xDDR4;54990
+alaplap;MSI MAG B660 TOMAHAWK WIFI;chipset:Intel B660,foglalat:Socket-LGA1700,memória:4xDDR5;74990
+alaplap;Gigabyte Z790 AORUS Elite AX;chipset:Intel Z790,foglalat:Socket-LGA1700,memória:4xDDR5;119990
+alaplap;ASRock B450M PRO4;chipset:AMD B450,foglalat:Socket-AM4,memória:4xDDR4;32990
+alaplap;ASUS TUF Gaming X570-Plus;chipset:AMD X570,foglalat:Socket-AM4,memória:4xDDR4;67990
+alaplap;MSI PRO Z690-A WIFI;chipset:Intel Z690,foglalat:Socket-LGA1700,memória:4xDDR5;89990
+alaplap;Gigabyte B650 Gaming X;chipset:AMD B650,foglalat:Socket-AM5,memória:4xDDR5;78990
+alaplap;ASRock H610M-HDV/M.2;chipset:Intel H610,foglalat:Socket-LGA1700,memória:2xDDR4;25990
+alaplap;ASUS Prime Z490-A;chipset:Intel Z490,foglalat:Socket-LGA1200,memória:4xDDR4;61990
+alaplap;MSI MEG X670E ACE;chipset:AMD X670E,foglalat:Socket-AM5,memória:4xDDR5;189990
+processzor;Intel Core i5-13600K;foglalat:Socket-LGA1700,magok:14,órajel:3.5GHz;104990
+processzor;AMD Ryzen 7 7700X;foglalat:Socket-AM5,magok:8,órajel:4.5GHz;124990
+processzor;Intel Core i7-12700F;foglalat:Socket-LGA1700,magok:12,órajel:2.1GHz;88990
+processzor;AMD Ryzen 9 5950X;foglalat:Socket-AM4,magok:16,órajel:3.4GHz;234990
+processzor;Intel Core i3-12100;foglalat:Socket-LGA1700,magok:4,órajel:3.3GHz;54990
+processzor;AMD Ryzen 5 5600G;foglalat:Socket-AM4,magok:6,órajel:3.9GHz;58990
+processzor;Intel Core i9-12900KS;foglalat:Socket-LGA1700,magok:16,órajel:5.5GHz;229990
+processzor;AMD Ryzen 3 4100;foglalat:Socket-AM4,magok:4,órajel:3.8GHz;32990
+processzor;Intel Pentium Gold G7400;foglalat:Socket-LGA1700,magok:2,órajel:3.7GHz;19990
+processzor;AMD Ryzen Threadripper 3990X;foglalat:Socket-sTRX4,magok:64,órajel:2.9GHz;1549990
+memória;Corsair Vengeance LPX 16GB;DDR4,sebesség:3200MHz,késleltetés:CL16;19990
+memória;Kingston Fury Beast 32GB;DDR5,sebesség:5200MHz,késleltetés:CL40;62990
+memória;G.Skill Trident Z RGB 16GB;DDR4,sebesség:3600MHz,késleltetés:CL18;25990
+memória;TeamGroup T-Force Vulcan 8GB;DDR4,sebesség:3000MHz,késleltetés:CL16;10990
+memória;Patriot Viper Steel 64GB;DDR4,sebesség:3200MHz,késleltetés:CL16;129990
+memória;Corsair Dominator Platinum 32GB;DDR5,sebesség:6000MHz,késleltetés:CL36;94990
+memória;ADATA XPG Spectrix D50 16GB;DDR4,sebesség:3600MHz,késleltetés:CL18;23990
+memória;Kingston ValueRAM 8GB;DDR4,sebesség:2400MHz,késleltetés:CL17;7990
+memória;G.Skill Ripjaws V 16GB;DDR4,sebesség:3200MHz,késleltetés:CL16;20990
+memória;TeamGroup Elite 4GB;DDR4,sebesség:2400MHz,késleltetés:CL16;4990
+videókártya;NVIDIA GeForce RTX 3060 Ti;memória:8GB GDDR6,órajel:1665MHz;159990
+videókártya;AMD Radeon RX 6800 XT;memória:16GB GDDR6,órajel:2015MHz;249990
+videókártya;NVIDIA GeForce GTX 1650;memória:4GB GDDR5,órajel:1485MHz;76990
+videókártya;AMD Radeon RX 7900 XTX;memória:24GB GDDR6,órajel:2250MHz;399990
+videókártya;NVIDIA GeForce RTX 4090;memória:24GB GDDR6X,órajel:2235MHz;799990
+videókártya;AMD Radeon RX 6700 XT;memória:12GB GDDR6,órajel:2321MHz;199990
+videókártya;NVIDIA GeForce RTX 3050;memória:8GB GDDR6,órajel:1777MHz;119990
+videókártya;AMD Radeon RX 5500 XT;memória:4GB GDDR6,órajel:1717MHz;85990
+videókártya;NVIDIA GeForce GTX 1660 Super;memória:6GB GDDR6,órajel:1530MHz;94990
+videókártya;AMD Radeon RX 580;memória:8GB GDDR5,órajel:1257MHz;74990
+HDD/SSD;Samsung 980 PRO 1TB;Típus:SSD,kapcsolat:NVMe,sebesség:7000MB/s;58990
+HDD/SSD;Western Digital Blue 1TB;Típus:HDD,sebesség:7200RPM,cache:64MB;18990
+HDD/SSD;Crucial MX500 500GB;Típus:SSD,kapcsolat:SATA3,sebesség:560MB/s;19990
+HDD/SSD;Seagate Barracuda 4TB;Típus:HDD,sebesség:5400RPM,cache:256MB;49990
+HDD/SSD;Kingston NV2 2TB;Típus:SSD,kapcsolat:NVMe,sebesség:3500MB/s;67990
+HDD/SSD;Toshiba P300 2TB;Típus:HDD,sebesség:7200RPM,cache:128MB;23990
+HDD/SSD;Samsung 870 EVO 2TB;Típus:SSD,kapcsolat:SATA3,sebesség:560MB/s;81990
+HDD/SSD;Western Digital Black SN850X 1TB;Típus:SSD,kapcsolat:NVMe,sebesség:7300MB/s;64990
+HDD/SSD;Seagate FireCuda 520 500GB;Típus:SSD,kapcsolat:NVMe,sebesség:5000MB/s;32990
+HDD/SSD;Crucial P3 Plus 1TB;Típus:SSD,kapcsolat:NVMe,sebesség:5000MB/s;35990
+monitor;Dell UltraSharp U2723QE;méret:27",felbontás:3840x2160,technológia:IPS;249990
+monitor;Samsung Odyssey G7;méret:32",felbontás:2560x1440,technológia:VA;199990
+monitor;LG UltraGear 27GP850;méret:27",felbontás:2560x1440,technológia:Nano IPS;179990
+monitor;Acer Nitro XV272U;méret:27",felbontás:2560x1440,technológia:IPS;129990
+monitor;ASUS TUF Gaming VG289Q1A;méret:28",felbontás:3840x2160,technológia:IPS;159990
+monitor;BenQ EX3501R;méret:35",felbontás:3440x1440,technológia:VA;289990
+monitor;Philips 276E8VJSB;méret:27",felbontás:3840x2160,technológia:IPS;99990
+monitor;Samsung Smart Monitor M8;méret:32",felbontás:3840x2160,technológia:VA;299990
+monitor;AOC CQ27G2U;méret:27",felbontás:2560x1440,technológia:VA;119990
+monitor;LG 24GN650-B;méret:24",felbontás:1920x1080,technológia:IPS;84990
+billentyűzet;Logitech G Pro X;mechanikus kapcsolók:GX Blue,világítás:RGB;44990
+billentyűzet;Razer BlackWidow V3;mechanikus kapcsolók:Green,világítás:RGB;59990
+billentyűzet;Corsair K70 RGB MK.2;mechanikus kapcsolók:Cherry MX Red,világítás:RGB;67990
+billentyűzet;SteelSeries Apex 5;mechanikus kapcsolók:membrán,világítás:RGB;39990
+billentyűzet;HyperX Alloy FPS Pro;mechanikus kapcsolók:Cherry MX Blue,világítás:nincs;29990
+egér;Logitech G502 Hero;érzékelő:25K DPI,világítás:RGB;24990
+egér;Razer DeathAdder V2;érzékelő:20K DPI,világítás:nincs;19990
+egér;SteelSeries Rival 5;érzékelő:18K DPI,világítás:RGB;26990
+egér;Corsair Scimitar RGB Elite;érzékelő:18K DPI,világítás:RGB;35990
+egér;HyperX Pulsefire FPS Pro;érzékelő:16K DPI,világítás:RGB;19990
