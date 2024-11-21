@@ -61,7 +61,7 @@ body{
     gap: 10px;
     
     .card{
-        border: 2px solid black;   
+        border: 2px solid black;
 
         .card-title{
             border-bottom: 2px solid black;
@@ -108,7 +108,7 @@ body{
     border: none;
 }
 
-#snackbar {
+#snackbar, #snackbar2 {
     visibility: hidden; /* Hidden by default. Visible on click */
     min-width: 250px; /* Set a default minimum width */
     margin-left: -125px; /* Divide value of min-width by 2 */
@@ -124,7 +124,7 @@ body{
   }
   
   /* Show the snackbar when clicking on a button (class added with JavaScript) */
-  #snackbar.show {
+  #snackbar.show, #snackbar2.show {
     visibility: visible; /* Show the snackbar */
     /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
     However, delay the fade out process for 2.5 seconds */
@@ -156,11 +156,23 @@ body{
 .gombos{
     .nemgomb{
         width: 200px;
+        height: 40px;
         margin-left: 50px;
         text-align: center;
+        font-weight: bold;
         border-radius: 10px;
         border: 2px solid black;
+        background-color: #333;
+        color: white;
     }
+
+.kivalasztottnemgomb{
+    background-image: url(image.png);
+    background-size: cover;
+    border: 2px solid black;
+    color: black;
+    font-weight: bold;
+}
 
 }
 footer {
