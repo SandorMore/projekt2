@@ -1,6 +1,7 @@
 var tartalmazza = document.getElementById("snackbar")
 var nemtartalmazza = document.getElementById("snackbar2")
 
+// ALAPLAP
 
 let kivallap = document.getElementById("valasztottlap")
 let lapok = document.querySelectorAll(".lap")
@@ -24,6 +25,8 @@ lapAdd.addEventListener("click", ()=>{
     }
 })
 
+// CPU
+
 let kivalcpu = document.getElementById("valasztottcpu")
 let cpuk = document.querySelectorAll(".cpu")
 
@@ -34,6 +37,20 @@ cpuk.forEach((cpu)=>{
     })
 })
 
+let cpuAdd = document.getElementById("cpuAdd")
+cpuAdd.addEventListener("click", ()=>{
+    if (kivalcpu.classList.contains("kivalszin")){
+        tartalmazza.className = "show";
+        setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
+    }
+    else{
+        nemtartalmazza.className = "show";
+        setTimeout(function(){ nemtartalmazza.className = nemtartalmazza.className.replace("show", ""); }, 3000);
+    }
+})
+
+// TAP
+
 let kivaltap = document.getElementById("valasztotttap")
 let tapok = document.querySelectorAll(".tap")
 
@@ -43,6 +60,20 @@ tapok.forEach((tap)=>{
         kivaltap.classList.add("kivalszin")
     })
 })
+
+let tapAdd = document.getElementById("tapAdd")
+tapAdd.addEventListener("click", ()=>{
+    if (kivaltap.classList.contains("kivalszin")){
+        tartalmazza.className = "show";
+        setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
+    }
+    else{
+        nemtartalmazza.className = "show";
+        setTimeout(function(){ nemtartalmazza.className = nemtartalmazza.className.replace("show", ""); }, 3000);
+    }
+})
+
+// GPU
 
 let kivalgpu = document.getElementById("valasztottgpu")
 let gpuk = document.querySelectorAll(".gpu")
@@ -55,6 +86,20 @@ gpuk.forEach((gpu)=>{
     })
 })
 
+let gpuAdd = document.getElementById("gpuAdd")
+gpuAdd.addEventListener("click", ()=>{
+    if (kivalgpu.classList.contains("kivalszin")){
+        tartalmazza.className = "show";
+        setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
+    }
+    else{
+        nemtartalmazza.className = "show";
+        setTimeout(function(){ nemtartalmazza.className = nemtartalmazza.className.replace("show", ""); }, 3000);
+    }
+})
+
+// RAM
+
 let kivalram = document.getElementById("valasztottram")
 let ramok = document.querySelectorAll(".ram")
 
@@ -65,6 +110,20 @@ ramok.forEach((ram)=>{
     })
 })
 
+let ramAdd = document.getElementById("ramAdd")
+ramAdd.addEventListener("click", ()=>{
+    if (kivalram.classList.contains("kivalszin")){
+        tartalmazza.className = "show";
+        setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
+    }
+    else{
+        nemtartalmazza.className = "show";
+        setTimeout(function(){ nemtartalmazza.className = nemtartalmazza.className.replace("show", ""); }, 3000);
+    }
+})
+
+// MEMORY
+
 let kivalmemory = document.getElementById("valasztottmemory")
 let memoryk = document.querySelectorAll(".memory")
 
@@ -74,6 +133,20 @@ memoryk.forEach((memory)=>{
         kivalmemory.classList.add("kivalszin")
     })
 })
+
+let memoryAdd = document.getElementById("memoryAdd")
+memoryAdd.addEventListener("click", ()=>{
+    if (kivalmemory.classList.contains("kivalszin")){
+        tartalmazza.className = "show";
+        setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
+    }
+    else{
+        nemtartalmazza.className = "show";
+        setTimeout(function(){ nemtartalmazza.className = nemtartalmazza.className.replace("show", ""); }, 3000);
+    }
+})
+
+// MONITOR
 
 let kivalmonitor = document.getElementById("valasztottmonitor")
 let monitorok = document.querySelectorAll(".monitor")
@@ -92,6 +165,20 @@ monitorok.forEach((monitor)=>{
     })
 })
 
+let monitorAdd = document.getElementById("monitorAdd")
+monitorAdd.addEventListener("click", ()=>{
+    if (kivalmonitor.classList.contains("kivalszin")){
+        tartalmazza.className = "show";
+        setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
+    }
+    else{
+        nemtartalmazza.className = "show";
+        setTimeout(function(){ nemtartalmazza.className = nemtartalmazza.className.replace("show", ""); }, 3000);
+    }
+})
+
+// BILL
+
 let kivalbill = document.getElementById("valasztottbill")
 let billek = document.querySelectorAll(".bill")
 let nobill = document.getElementById("nobill")
@@ -109,6 +196,20 @@ billek.forEach((bill)=>{
     })
 })
 
+let billAdd = document.getElementById("billAdd")
+billAdd.addEventListener("click", ()=>{
+    if (kivalbill.classList.contains("kivalszin")){
+        tartalmazza.className = "show";
+        setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
+    }
+    else{
+        nemtartalmazza.className = "show";
+        setTimeout(function(){ nemtartalmazza.className = nemtartalmazza.className.replace("show", ""); }, 3000);
+    }
+})
+
+// EGER
+
 let kivaleger = document.getElementById("valasztotteger")
 let egerek = document.querySelectorAll(".eger")
 let noeger = document.getElementById("noeger")
@@ -125,6 +226,19 @@ egerek.forEach((eger)=>{
         kivaleger.classList.add("kivalszin")
     })
 })
+
+let egerAdd = document.getElementById("egerAdd")
+egerAdd.addEventListener("click", ()=>{
+    if (kivaleger.classList.contains("kivalszin")){
+        tartalmazza.className = "show";
+        setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
+    }
+    else{
+        nemtartalmazza.className = "show";
+        setTimeout(function(){ nemtartalmazza.className = nemtartalmazza.className.replace("show", ""); }, 3000);
+    }
+})
+
 
 
 
