@@ -1,0 +1,682 @@
+[
+    {
+        "type": "alaplap",
+        "name": "ASUS ROG Strix B550-F Gaming",
+        "specs": {
+            "chipset": "AMD B550",
+            "foglalat": "Socket-AM4",
+            "memória": "4xDDR4"
+        },
+        "price": "54990"
+    },
+    {
+        "type": "alaplap",
+        "name": "MSI MAG B660 TOMAHAWK WIFI",
+        "specs": {
+            "chipset": "Intel B660",
+            "foglalat": "Socket-LGA1700",
+            "memória": "4xDDR5"
+        },
+        "price": "74990"
+    },
+    {
+        "type": "alaplap",
+        "name": "Gigabyte Z790 AORUS Elite AX",
+        "specs": {
+            "chipset": "Intel Z790",
+            "foglalat": "Socket-LGA1700",
+            "memória": "4xDDR5"
+        },
+        "price": "119990"
+    },
+    {
+        "type": "alaplap",
+        "name": "ASRock B450M PRO4",
+        "specs": {
+            "chipset": "AMD B450",
+            "foglalat": "Socket-AM4",
+            "memória": "4xDDR4"
+        },
+        "price": "32990"
+    },
+    {
+        "type": "alaplap",
+        "name": "ASUS TUF Gaming X570-Plus",
+        "specs": {
+            "chipset": "AMD X570",
+            "foglalat": "Socket-AM4",
+            "memória": "4xDDR4"
+        },
+        "price": "67990"
+    },
+    {
+        "type": "alaplap",
+        "name": "MSI PRO Z690-A WIFI",
+        "specs": {
+            "chipset": "Intel Z690",
+            "foglalat": "Socket-LGA1700",
+            "memória": "4xDDR5"
+        },
+        "price": "89990"
+    },
+    {
+        "type": "alaplap",
+        "name": "Gigabyte B650 Gaming X",
+        "specs": {
+            "chipset": "AMD B650",
+            "foglalat": "Socket-AM5",
+            "memória": "4xDDR5"
+        },
+        "price": "78990"
+    },
+    {
+        "type": "alaplap",
+        "name": "ASRock H610M-HDV/M.2",
+        "specs": {
+            "chipset": "Intel H610",
+            "foglalat": "Socket-LGA1700",
+            "memória": "2xDDR4"
+        },
+        "price": "25990"
+    },
+    {
+        "type": "alaplap",
+        "name": "ASUS Prime Z490-A",
+        "specs": {
+            "chipset": "Intel Z490",
+            "foglalat": "Socket-LGA1200",
+            "memória": "4xDDR4"
+        },
+        "price": "61990"
+    },
+    {
+        "type": "alaplap",
+        "name": "MSI MEG X670E ACE",
+        "specs": {
+            "chipset": "AMD X670E",
+            "foglalat": "Socket-AM5",
+            "memória": "4xDDR5"
+        },
+        "price": "189990"
+    },
+    {
+        "type": "processzor",
+        "name": "Intel Core i5-13600K",
+        "specs": {
+            "foglalat": "Socket-LGA1700",
+            "magok": "14",
+            "órajel": "3.5GHz"
+        },
+        "price": "104990"
+    },
+    {
+        "type": "processzor",
+        "name": "AMD Ryzen 7 7700X",
+        "specs": {
+            "foglalat": "Socket-AM5",
+            "magok": "8",
+            "órajel": "4.5GHz"
+        },
+        "price": "124990"
+    },
+    {
+        "type": "processzor",
+        "name": "Intel Core i7-12700F",
+        "specs": {
+            "foglalat": "Socket-LGA1700",
+            "magok": "12",
+            "órajel": "2.1GHz"
+        },
+        "price": "88990"
+    },
+    {
+        "type": "processzor",
+        "name": "AMD Ryzen 9 5950X",
+        "specs": {
+            "foglalat": "Socket-AM4",
+            "magok": "16",
+            "órajel": "3.4GHz"
+        },
+        "price": "234990"
+    },
+    {
+        "type": "processzor",
+        "name": "Intel Core i3-12100",
+        "specs": {
+            "foglalat": "Socket-LGA1700",
+            "magok": "4",
+            "órajel": "3.3GHz"
+        },
+        "price": "54990"
+    },
+    {
+        "type": "processzor",
+        "name": "AMD Ryzen 5 5600G",
+        "specs": {
+            "foglalat": "Socket-AM4",
+            "magok": "6",
+            "órajel": "3.9GHz"
+        },
+        "price": "58990"
+    },
+    {
+        "type": "processzor",
+        "name": "Intel Core i9-12900KS",
+        "specs": {
+            "foglalat": "Socket-LGA1700",
+            "magok": "16",
+            "órajel": "5.5GHz"
+        },
+        "price": "229990"
+    },
+    {
+        "type": "processzor",
+        "name": "AMD Ryzen 3 4100",
+        "specs": {
+            "foglalat": "Socket-AM4",
+            "magok": "4",
+            "órajel": "3.8GHz"
+        },
+        "price": "32990"
+    },
+    {
+        "type": "processzor",
+        "name": "Intel Pentium Gold G7400",
+        "specs": {
+            "foglalat": "Socket-LGA1700",
+            "magok": "2",
+            "órajel": "3.7GHz"
+        },
+        "price": "19990"
+    },
+    {
+        "type": "processzor",
+        "name": "AMD Ryzen Threadripper 3990X",
+        "specs": {
+            "foglalat": "Socket-sTRX4",
+            "magok": "64",
+            "órajel": "2.9GHz"
+        },
+        "price": "1549990"
+    },
+    {
+        "type": "memória",
+        "name": "Corsair Vengeance LPX 16GB",
+        "specs": {
+            "tipus": "DDR4",
+            "sebesség": "3200MHz",
+            "késleltetés": "CL16"
+        },
+        "price": "19990"
+    },
+    {
+        "type": "memória",
+        "name": "Kingston Fury Beast 32GB",
+        "specs": {
+            "tipus": "DDR5",
+            "sebesség": "5200MHz",
+            "késleltetés": "CL40"
+        },
+        "price": "62990"
+    },
+    {
+        "type": "memória",
+        "name": "G.Skill Trident Z RGB 16GB",
+        "specs": {
+            "tipus": "DDR4",
+            "sebesség": "3600MHz",
+            "késleltetés": "CL18"
+        },
+        "price": "25990"
+    },
+    {
+        "type": "memória",
+        "name": "TeamGroup T-Force Vulcan 8GB",
+        "specs": {
+            "tipus": "DDR4",
+            "sebesség": "3000MHz",
+            "késleltetés": "CL16"
+        },
+        "price": "10990"
+    },
+    {
+        "type": "memória",
+        "name": "Patriot Viper Steel 64GB",
+        "specs": {
+            "tipus": "DDR4",
+            "sebesség": "3200MHz",
+            "késleltetés": "CL16"
+        },
+        "price": "129990"
+    },
+    {
+        "type": "memória",
+        "name": "Corsair Dominator Platinum 32GB",
+        "specs": {
+            "tipus": "DDR5",
+            "sebesség": "6000MHz",
+            "késleltetés": "CL36"
+        },
+        "price": "94990"
+    },
+    {
+        "type": "memória",
+        "name": "ADATA XPG Spectrix D50 16GB",
+        "specs": {
+            "tipus": "DDR4",
+            "sebesség": "3600MHz",
+            "késleltetés": "CL18"
+        },
+        "price": "23990"
+    },
+    {
+        "type": "memória",
+        "name": "Kingston ValueRAM 8GB",
+        "specs": {
+            "tipus": "DDR4",
+            "sebesség": "2400MHz",
+            "késleltetés": "CL17"
+        },
+        "price": "7990"
+    },
+    {
+        "type": "memória",
+        "name": "G.Skill Ripjaws V 16GB",
+        "specs": {
+            "tipus": "DDR4",
+            "sebesség": "3200MHz",
+            "késleltetés": "CL16"
+        },
+        "price": "20990"
+    },
+    {
+        "type": "memória",
+        "name": "TeamGroup Elite 4GB",
+        "specs": {
+            "tipus": "DDR4",
+            "sebesség": "2400MHz",
+            "késleltetés": "CL16"
+        },
+        "price": "4990"
+    },
+    {
+        "type": "videókártya",
+        "name": "NVIDIA GeForce RTX 3060 Ti",
+        "specs": {
+            "memória": "8GB GDDR6",
+            "órajel": "1665MHz"
+        },
+        "price": "159990"
+    },
+    {
+        "type": "videókártya",
+        "name": "AMD Radeon RX 6800 XT",
+        "specs": {
+            "memória": "16GB GDDR6",
+            "órajel": "2015MHz"
+        },
+        "price": "249990"
+    },
+    {
+        "type": "videókártya",
+        "name": "NVIDIA GeForce GTX 1650",
+        "specs": {
+            "memória": "4GB GDDR5",
+            "órajel": "1485MHz"
+        },
+        "price": "76990"
+    },
+    {
+        "type": "videókártya",
+        "name": "AMD Radeon RX 7900 XTX",
+        "specs": {
+            "memória": "24GB GDDR6",
+            "órajel": "2250MHz"
+        },
+        "price": "399990"
+    },
+    {
+        "type": "videókártya",
+        "name": "NVIDIA GeForce RTX 4090",
+        "specs": {
+            "memória": "24GB GDDR6X",
+            "órajel": "2235MHz"
+        },
+        "price": "799990"
+    },
+    {
+        "type": "videókártya",
+        "name": "AMD Radeon RX 6700 XT",
+        "specs": {
+            "memória": "12GB GDDR6",
+            "órajel": "2321MHz"
+        },
+        "price": "199990"
+    },
+    {
+        "type": "videókártya",
+        "name": "NVIDIA GeForce RTX 3050",
+        "specs": {
+            "memória": "8GB GDDR6",
+            "órajel": "1777MHz"
+        },
+        "price": "119990"
+    },
+    {
+        "type": "videókártya",
+        "name": "AMD Radeon RX 5500 XT",
+        "specs": {
+            "memória": "4GB GDDR6",
+            "órajel": "1717MHz"
+        },
+        "price": "85990"
+    },
+    {
+        "type": "videókártya",
+        "name": "NVIDIA GeForce GTX 1660 Super",
+        "specs": {
+            "memória": "6GB GDDR6",
+            "órajel": "1530MHz"
+        },
+        "price": "94990"
+    },
+    {
+        "type": "videókártya",
+        "name": "AMD Radeon RX 580",
+        "specs": {
+            "memória": "8GB GDDR5",
+            "órajel": "1257MHz"
+        },
+        "price": "74990"
+    },
+    {
+        "type": "HDD/SSD",
+        "name": "Samsung 980 PRO 1TB",
+        "specs": {
+            "Típus": "SSD",
+            "kapcsolat": "NVMe",
+            "sebesség": "7000MB/s"
+        },
+        "price": "58990"
+    },
+    {
+        "type": "HDD/SSD",
+        "name": "Western Digital Blue 1TB",
+        "specs": {
+            "Típus": "HDD",
+            "sebesség": "7200RPM",
+            "cache": "64MB"
+        },
+        "price": "18990"
+    },
+    {
+        "type": "HDD/SSD",
+        "name": "Crucial MX500 500GB",
+        "specs": {
+            "Típus": "SSD",
+            "kapcsolat": "SATA3",
+            "sebesség": "560MB/s"
+        },
+        "price": "19990"
+    },
+    {
+        "type": "HDD/SSD",
+        "name": "Seagate Barracuda 4TB",
+        "specs": {
+            "Típus": "HDD",
+            "sebesség": "5400RPM",
+            "cache": "256MB"
+        },
+        "price": "49990"
+    },
+    {
+        "type": "HDD/SSD",
+        "name": "Kingston NV2 2TB",
+        "specs": {
+            "Típus": "SSD",
+            "kapcsolat": "NVMe",
+            "sebesség": "3500MB/s"
+        },
+        "price": "67990"
+    },
+    {
+        "type": "HDD/SSD",
+        "name": "Toshiba P300 2TB",
+        "specs": {
+            "Típus": "HDD",
+            "sebesség": "7200RPM",
+            "cache": "128MB"
+        },
+        "price": "23990"
+    },
+    {
+        "type": "HDD/SSD",
+        "name": "Samsung 870 EVO 2TB",
+        "specs": {
+            "Típus": "SSD",
+            "kapcsolat": "SATA3",
+            "sebesség": "560MB/s"
+        },
+        "price": "81990"
+    },
+    {
+        "type": "HDD/SSD",
+        "name": "Western Digital Black SN850X 1TB",
+        "specs": {
+            "Típus": "SSD",
+            "kapcsolat": "NVMe",
+            "sebesség": "7300MB/s"
+        },
+        "price": "64990"
+    },
+    {
+        "type": "HDD/SSD",
+        "name": "Seagate FireCuda 520 500GB",
+        "specs": {
+            "Típus": "SSD",
+            "kapcsolat": "NVMe",
+            "sebesség": "5000MB/s"
+        },
+        "price": "32990"
+    },
+    {
+        "type": "HDD/SSD",
+        "name": "Crucial P3 Plus 1TB",
+        "specs": {
+            "Típus": "SSD",
+            "kapcsolat": "NVMe",
+            "sebesség": "5000MB/s"
+        },
+        "price": "35990"
+    },
+    {
+        "type": "monitor",
+        "name": "Dell UltraSharp U2723QE",
+        "specs": {
+            "méret": "27\"",
+            "felbontás": "3840x2160",
+            "technológia": "IPS"
+        },
+        "price": "249990"
+    },
+    {
+        "type": "monitor",
+        "name": "Samsung Odyssey G7",
+        "specs": {
+            "méret": "32\"",
+            "felbontás": "2560x1440",
+            "technológia": "VA"
+        },
+        "price": "199990"
+    },
+    {
+        "type": "monitor",
+        "name": "LG UltraGear 27GP850",
+        "specs": {
+            "méret": "27\"",
+            "felbontás": "2560x1440",
+            "technológia": "Nano IPS"
+        },
+        "price": "179990"
+    },
+    {
+        "type": "monitor",
+        "name": "Acer Nitro XV272U",
+        "specs": {
+            "méret": "27\"",
+            "felbontás": "2560x1440",
+            "technológia": "IPS"
+        },
+        "price": "129990"
+    },
+    {
+        "type": "monitor",
+        "name": "ASUS TUF Gaming VG289Q1A",
+        "specs": {
+            "méret": "28\"",
+            "felbontás": "3840x2160",
+            "technológia": "IPS"
+        },
+        "price": "159990"
+    },
+    {
+        "type": "monitor",
+        "name": "BenQ EX3501R",
+        "specs": {
+            "méret": "35\"",
+            "felbontás": "3440x1440",
+            "technológia": "VA"
+        },
+        "price": "289990"
+    },
+    {
+        "type": "monitor",
+        "name": "Philips 276E8VJSB",
+        "specs": {
+            "méret": "27\"",
+            "felbontás": "3840x2160",
+            "technológia": "IPS"
+        },
+        "price": "99990"
+    },
+    {
+        "type": "monitor",
+        "name": "Samsung Smart Monitor M8",
+        "specs": {
+            "méret": "32\"",
+            "felbontás": "3840x2160",
+            "technológia": "VA"
+        },
+        "price": "299990"
+    },
+    {
+        "type": "monitor",
+        "name": "AOC CQ27G2U",
+        "specs": {
+            "méret": "27\"",
+            "felbontás": "2560x1440",
+            "technológia": "VA"
+        },
+        "price": "119990"
+    },
+    {
+        "type": "monitor",
+        "name": "LG 24GN650-B",
+        "specs": {
+            "méret": "24\"",
+            "felbontás": "1920x1080",
+            "technológia": "IPS"
+        },
+        "price": "84990"
+    },
+    {
+        "type": "billentyűzet",
+        "name": "Logitech G Pro X",
+        "specs": {
+            "mechanikus kapcsolók": "GX Blue",
+            "világítás": "RGB"
+        },
+        "price": "44990"
+    },
+    {
+        "type": "billentyűzet",
+        "name": "Razer BlackWidow V3",
+        "specs": {
+            "mechanikus kapcsolók": "Green",
+            "világítás": "RGB"
+        },
+        "price": "59990"
+    },
+    {
+        "type": "billentyűzet",
+        "name": "Corsair K70 RGB MK.2",
+        "specs": {
+            "mechanikus kapcsolók": "Cherry MX Red",
+            "világítás": "RGB"
+        },
+        "price": "67990"
+    },
+    {
+        "type": "billentyűzet",
+        "name": "SteelSeries Apex 5",
+        "specs": {
+            "mechanikus kapcsolók": "membrán",
+            "világítás": "RGB"
+        },
+        "price": "39990"
+    },
+    {
+        "type": "billentyűzet",
+        "name": "HyperX Alloy FPS Pro",
+        "specs": {
+            "mechanikus kapcsolók": "Cherry MX Blue",
+            "világítás": "nincs"
+        },
+        "price": "29990"
+    },
+    {
+        "type": "egér",
+        "name": "Logitech G502 Hero",
+        "specs": {
+            "érzékelő": "25K DPI",
+            "világítás": "RGB"
+        },
+        "price": "24990"
+    },
+    {
+        "type": "egér",
+        "name": "Razer DeathAdder V2",
+        "specs": {
+            "érzékelő": "20K DPI",
+            "világítás": "nincs"
+        },
+        "price": "19990"
+    },
+    {
+        "type": "egér",
+        "name": "SteelSeries Rival 5",
+        "specs": {
+            "érzékelő": "18K DPI",
+            "világítás": "RGB"
+        },
+        "price": "26990"
+    },
+    {
+        "type": "egér",
+        "name": "Corsair Scimitar RGB Elite",
+        "specs": {
+            "érzékelő": "18K DPI",
+            "világítás": "RGB"
+        },
+        "price": "35990"
+    },
+    {
+        "type": "egér",
+        "name": "HyperX Pulsefire FPS Pro",
+        "specs": {
+            "érzékelő": "16K DPI",
+            "világítás": "RGB"
+        },
+        "price": "19990"
+    }
+]
