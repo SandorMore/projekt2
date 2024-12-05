@@ -18,16 +18,16 @@ processzor;Intel Core i9-12900KS;foglalat:Socket-LGA1700,magok:16,órajel:5.5GHz
 processzor;AMD Ryzen 3 4100;foglalat:Socket-AM4,magok:4,órajel:3.8GHz;32990
 processzor;Intel Pentium Gold G7400;foglalat:Socket-LGA1700,magok:2,órajel:3.7GHz;19990
 processzor;AMD Ryzen Threadripper 3990X;foglalat:Socket-sTRX4,magok:64,órajel:2.9GHz;1549990
-memória;Corsair Vengeance LPX 16GB;DDR4,sebesség:3200MHz,késleltetés:CL16;19990
-memória;Kingston Fury Beast 32GB;DDR5,sebesség:5200MHz,késleltetés:CL40;62990
-memória;G.Skill Trident Z RGB 16GB;DDR4,sebesség:3600MHz,késleltetés:CL18;25990
-memória;TeamGroup T-Force Vulcan 8GB;DDR4,sebesség:3000MHz,késleltetés:CL16;10990
-memória;Patriot Viper Steel 64GB;DDR4,sebesség:3200MHz,késleltetés:CL16;129990
-memória;Corsair Dominator Platinum 32GB;DDR5,sebesség:6000MHz,késleltetés:CL36;94990
-memória;ADATA XPG Spectrix D50 16GB;DDR4,sebesség:3600MHz,késleltetés:CL18;23990
-memória;Kingston ValueRAM 8GB;DDR4,sebesség:2400MHz,késleltetés:CL17;7990
-memória;G.Skill Ripjaws V 16GB;DDR4,sebesség:3200MHz,késleltetés:CL16;20990
-memória;TeamGroup Elite 4GB;DDR4,sebesség:2400MHz,késleltetés:CL16;4990
+memória;Corsair Vengeance LPX 16GB;tipus:DDR4,sebesség:3200MHz,késleltetés:CL16;19990
+memória;Kingston Fury Beast 32GB;tipus:DDR5,sebesség:5200MHz,késleltetés:CL40;62990
+memória;G.Skill Trident Z RGB 16GB;tipus:DDR4,sebesség:3600MHz,késleltetés:CL18;25990
+memória;TeamGroup T-Force Vulcan 8GB;tipus:DDR4,sebesség:3000MHz,késleltetés:CL16;10990
+memória;Patriot Viper Steel 64GB;tipus:DDR4,sebesség:3200MHz,késleltetés:CL16;129990
+memória;Corsair Dominator Platinum 32GB;tipus:DDR5,sebesség:6000MHz,késleltetés:CL36;94990
+memória;ADATA XPG Spectrix D50 16GB;tipus:DDR4,sebesség:3600MHz,késleltetés:CL18;23990
+memória;Kingston ValueRAM 8GB;tipus:DDR4,sebesség:2400MHz,késleltetés:CL17;7990
+memória;G.Skill Ripjaws V 16GB;tipus:DDR4,sebesség:3200MHz,késleltetés:CL16;20990
+memória;TeamGroup Elite 4GB;tipus:DDR4,sebesség:2400MHz,késleltetés:CL16;4990
 videókártya;NVIDIA GeForce RTX 3060 Ti;memória:8GB GDDR6,órajel:1665MHz;159990
 videókártya;AMD Radeon RX 6800 XT;memória:16GB GDDR6,órajel:2015MHz;249990
 videókártya;NVIDIA GeForce GTX 1650;memória:4GB GDDR5,órajel:1485MHz;76990
