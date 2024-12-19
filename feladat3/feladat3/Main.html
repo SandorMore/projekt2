@@ -27,38 +27,38 @@
                         <a class="nav-link active" aria-current="page" href="#">Főoldal</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Asztli számítógépek
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Gamer Számítógépek</a></li>
-                            <li><a class="dropdown-item" href="#">Munkahelyi számítógépek</a></li>
-                            <li><a class="dropdown-item" href="#">Tanulós számítógépek</a></li>
+                            <li><a class="dropdown-item" href="parts.html">Gamer Számítógépek</a></li>
+                            <li><a class="dropdown-item" href="parts.html">Munkahelyi számítógépek</a></li>
+                            <li><a class="dropdown-item" href="parts.html">Tanulós számítógépek</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Alkatrészek
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Alaplap</a></li>
-                            <li><a class="dropdown-item" href="#">Processzor</a></li>
-                            <li><a class="dropdown-item" href="#">Memória</a></li>
-                            <li><a class="dropdown-item" href="#">Videókártya</a></li>
+                            <li><a class="dropdown-item" href="parts.html" onclick="parts_page(motherboard)">Alaplap</a></li>
+                            <li><a class="dropdown-item" href="parts.html" onclick="parts_page(CPU)">Processzor</a></li>
+                            <li><a class="dropdown-item" href="parts.html" onclick="parts_page(memory)">Memória</a></li>
+                            <li><a class="dropdown-item" href="parts.html" onclick="parts_page(GPU)">Videókártya</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Perifériák
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Háttértár</a></li>
-                            <li><a class="dropdown-item" href="#">Monitor</a></li>
-                            <li><a class="dropdown-item" href="#">Billenytűzet</a></li>
-                            <li><a class="dropdown-item" href="#">Egér</a></li>
+                            <li><a class="dropdown-item" href="parts.html" onclick="parts_page(storage)">Háttértár</a></li>
+                            <li><a class="dropdown-item" href="parts.html" onclick="parts_page(monitor)">Monitor</a></li>
+                            <li><a class="dropdown-item" href="parts.html" onclick="parts_page(keyboard)">Billenytűzet</a></li>
+                            <li><a class="dropdown-item" href="parts.html" onclick="parts_page(mouse)">Egér</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -131,10 +131,12 @@
             </div>
         </footer>
     </div>
-</body>
 <script src="parts.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+
+</body>
+
 
 </html>
