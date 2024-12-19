@@ -47,7 +47,6 @@ function cardBuilder(){
             col.classList.add("lap")
             let lapsec = document.getElementById("laprow")
             lapsec.appendChild(col)
-            lapsec.style.overflowX = "scroll"
             lapBuilder(col)
         }
         if (data.type == 'processzor'){
@@ -117,6 +116,8 @@ function lapBuilder(col){
         if (kivallap.classList.contains("kivalszin")){
             tartalmazza.className = "show";
             setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
+            let lap = kivallap.querySelector(".card-title").innerText
+            localStorage.setItem("lap", lap)
         }
         else{
             nemtartalmazza.className = "show";
@@ -141,6 +142,8 @@ function cpuBuilder(col){
         if (kivalcpu.classList.contains("kivalszin")){
             tartalmazza.className = "show";
             setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
+            let cpu = kivalcpu.querySelector(".card-title").innerText
+            localStorage.setItem("cpu", cpu)
         }
         else{
             nemtartalmazza.className = "show";
