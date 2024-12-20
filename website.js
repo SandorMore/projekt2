@@ -29,6 +29,7 @@ function cardBuilder(){
         }
         let ar = document.createElement("li")
         ar.classList.add("list-group-item")
+        ar.classList.add("Ar")
         ar.innerText = data.price
         let ft = document.createElement("span")
         ft.innerText = " Ft"
@@ -118,6 +119,8 @@ function lapBuilder(col){
             setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
             let lap = kivallap.querySelector(".card-title").innerText
             localStorage.setItem("lap", lap)
+            let lapAr = kivallap.querySelector(".Ar").innerText
+            localStorage.setItem("lapAr", lapAr.replace(" Ft", ""))
         }
         else{
             nemtartalmazza.className = "show";
@@ -144,6 +147,8 @@ function cpuBuilder(col){
             setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
             let cpu = kivalcpu.querySelector(".card-title").innerText
             localStorage.setItem("cpu", cpu)
+            let cpuAr = kivalcpu.querySelector(".Ar").innerText
+            localStorage.setItem("cpuAr", cpuAr.replace(" Ft", ""))
         }
         else{
             nemtartalmazza.className = "show";
@@ -168,6 +173,10 @@ function gpuBuilder(col){
         if (kivalgpu.classList.contains("kivalszin")){
             tartalmazza.className = "show";
             setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
+            let gpu = kivalgpu.querySelector(".card-title").innerText
+            localStorage.setItem("gpu", gpu)
+            let gpuAr = kivalgpu.querySelector(".Ar").innerText
+            localStorage.setItem("gpuAr", gpuAr.replace(" Ft", ""))
         }
         else{
             nemtartalmazza.className = "show";
@@ -192,6 +201,10 @@ function ramBuilder(col){
         if (kivalram.classList.contains("kivalszin")){
             tartalmazza.className = "show";
             setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
+            let ram = kivalram.querySelector(".card-title").innerText
+            localStorage.setItem("ram", ram)
+            let ramAr = kivalram.querySelector(".Ar").innerText
+            localStorage.setItem("ramAr", ramAr.replace(" Ft", ""))
         }
         else{
             nemtartalmazza.className = "show";
@@ -216,6 +229,10 @@ function memBuilder(col){
         if (kivalmemory.classList.contains("kivalszin")){
             tartalmazza.className = "show";
             setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
+            let memory = kivalmemory.querySelector(".card-title").innerText
+            localStorage.setItem("memory", memory)
+            let memoryAr = kivalmemory.querySelector(".Ar").innerText
+            localStorage.setItem("memoryAr", memoryAr.replace(" Ft", ""))
         }
         else{
             nemtartalmazza.className = "show";
