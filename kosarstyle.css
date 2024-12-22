@@ -71,7 +71,7 @@ h2{
 }
 
 
-button{
+#realBtn{
     width: 250px;
     height: 50px;
     font-size: 1.3rem;
@@ -81,11 +81,13 @@ button{
     border: 3px solid black;
 }
 
-button:hover{
+#realBtn:hover{
     background-color: 	rgba(128,128,128,0.6);
 }
 
-#snackbar{
+#snackbar3{
+    display: flex;
+    justify-content: center;
     visibility: hidden; /* Hidden by default. Visible on click */
     min-width: 250px; /* Set a default minimum width */
     margin-left: -125px; /* Divide value of min-width by 2 */
@@ -96,12 +98,14 @@ button:hover{
     padding: 16px; /* Padding */
     position: fixed; /* Sit on top of the screen */
     z-index: 1; /* Add a z-index if needed */
-    left: 50%; /* Center the snackbar */
+    transform: translateX(-50%); /* Center the snackbar */
+    margin-left: auto;
+    left: 50%;
     bottom: 30px; /* 30px from the bottom */
   }
   
   /* Show the snackbar when clicking on a button (class added with JavaScript) */
-  #snackbar.show{
+  #snackbar3.show2{
     visibility: visible; /* Show the snackbar */
     /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
     However, delay the fade out process for 2.5 seconds */
