@@ -9,15 +9,20 @@ function cardBuilder(){
         let col = document.createElement("div")
         col.classList.add("col-12")
         col.classList.add("col-md-5")
+
         let card = document.createElement("div")
         card.classList.add("card")
+
         let cardb = document.createElement("div")
         cardb.classList.add("card-body")
+
         let title = document.createElement("div")
         title.classList.add("card-title")
         title.innerText = data.name
+
         let text = document.createElement("div")
         text.classList.add("card-text")
+
         let ul = document.createElement("ul")
         ul.classList.add("list-group")
         ul.classList.add("list-group-flush")
@@ -27,6 +32,7 @@ function cardBuilder(){
             item.innerText = spec + ": " + data.specs[spec]
             ul.appendChild(item)
         }
+
         let ar = document.createElement("li")
         ar.classList.add("list-group-item")
         ar.classList.add("Ar")
@@ -103,8 +109,8 @@ fetch(file)
     cardBuilder()
 })
 
-
 // ALAPLAP
+
 function lapBuilder(col){
     let kivallap = document.getElementById("valasztottlap")
         col.addEventListener("click", ()=>{
@@ -117,6 +123,7 @@ function lapBuilder(col){
         if (kivallap.classList.contains("kivalszin")){
             tartalmazza.className = "show";
             setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
+
             let lap = kivallap.querySelector(".card-title").innerText
             localStorage.setItem("lap", lap)
             let lapAr = kivallap.querySelector(".Ar").innerText
@@ -145,6 +152,7 @@ function cpuBuilder(col){
         if (kivalcpu.classList.contains("kivalszin")){
             tartalmazza.className = "show";
             setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
+
             let cpu = kivalcpu.querySelector(".card-title").innerText
             localStorage.setItem("cpu", cpu)
             let cpuAr = kivalcpu.querySelector(".Ar").innerText
@@ -173,6 +181,7 @@ function gpuBuilder(col){
         if (kivalgpu.classList.contains("kivalszin")){
             tartalmazza.className = "show";
             setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
+
             let gpu = kivalgpu.querySelector(".card-title").innerText
             localStorage.setItem("gpu", gpu)
             let gpuAr = kivalgpu.querySelector(".Ar").innerText
@@ -201,6 +210,7 @@ function ramBuilder(col){
         if (kivalram.classList.contains("kivalszin")){
             tartalmazza.className = "show";
             setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
+
             let ram = kivalram.querySelector(".card-title").innerText
             localStorage.setItem("ram", ram)
             let ramAr = kivalram.querySelector(".Ar").innerText
@@ -229,6 +239,7 @@ function memBuilder(col){
         if (kivalmemory.classList.contains("kivalszin")){
             tartalmazza.className = "show";
             setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
+
             let memory = kivalmemory.querySelector(".card-title").innerText
             localStorage.setItem("memory", memory)
             let memoryAr = kivalmemory.querySelector(".Ar").innerText
@@ -251,6 +262,8 @@ function monitorBuilder(col){
 
     nomonitor.addEventListener("click", ()=>{
         nomonitor.classList.add("kivalasztottnemgomb")
+        localStorage.removeItem("monitor")
+        localStorage.removeItem("monitorAr")
         kivalmonitor.innerHTML = null
     })
 
@@ -267,6 +280,11 @@ function monitorBuilder(col){
         if (kivalmonitor.classList.contains("kivalszin")){
             tartalmazza.className = "show";
             setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
+
+            let monitor = kivalmonitor.querySelector(".card-title").innerText
+            localStorage.setItem("monitor", monitor)
+            let monitorAr = kivalmonitor.querySelector(".Ar").innerText
+            localStorage.setItem("monitorAr", monitorAr.replace(" Ft", ""))
         }
         else{
             nemtartalmazza.className = "show";
@@ -285,6 +303,8 @@ function billBuilder(col){
 
     nobill.addEventListener("click", ()=>{
         nobill.classList.add("kivalasztottnemgomb")
+        localStorage.removeItem("bill")
+        localStorage.removeItem("billAr")
         kivalbill.innerHTML = null
     })
 
@@ -301,6 +321,11 @@ function billBuilder(col){
         if (kivalbill.classList.contains("kivalszin")){
             tartalmazza.className = "show";
             setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
+
+            let bill = kivalbill.querySelector(".card-title").innerText
+            localStorage.setItem("bill", bill)
+            let billAr = kivalbill.querySelector(".Ar").innerText
+            localStorage.setItem("billAr", billAr.replace(" Ft", ""))
         }
         else{
             nemtartalmazza.className = "show";
@@ -319,6 +344,8 @@ function egerBuilder(col){
 
     noeger.addEventListener("click", ()=>{
         noeger.classList.add("kivalasztottnemgomb")
+        localStorage.removeItem("eger")
+        localStorage.removeItem("egerAr")
         kivaleger.innerHTML = null
     })
 
@@ -335,6 +362,11 @@ function egerBuilder(col){
         if (kivaleger.classList.contains("kivalszin")){
             tartalmazza.className = "show";
             setTimeout(function(){ tartalmazza.className = tartalmazza.className.replace("show", ""); }, 3000);
+
+            let eger = kivaleger.querySelector(".card-title").innerText
+            localStorage.setItem("eger", eger)
+            let egerAr = kivaleger.querySelector(".Ar").innerText
+            localStorage.setItem("egerAr", egerAr.replace(" Ft", ""))
         }
         else{
             nemtartalmazza.className = "show";

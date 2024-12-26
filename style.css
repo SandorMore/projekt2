@@ -8,7 +8,6 @@ body{
     padding: 0px 10px 0px 10px;
 }
 
-
 #fooldal, #spec{
     font-size: 1.2rem;
     font-weight: bold;
@@ -53,7 +52,6 @@ body{
         margin-bottom: 20px;
     }
 }
-
 
 .row{
     display: flex;
@@ -173,15 +171,15 @@ body{
         color: white;
     }
 
-.kivalasztottnemgomb{
-    background-image: url(image.png);
-    background-size: cover;
-    border: 2px solid black;
-    color: black;
-    font-weight: bold;
+    .kivalasztottnemgomb{
+        background-image: url(image.png);
+        background-size: cover;
+        border: 2px solid black;
+        color: black;
+        font-weight: bold;
+    }
 }
 
-}
 footer {
     background-color: #333;
     background-size: cover;
