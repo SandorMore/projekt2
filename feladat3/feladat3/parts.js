@@ -8,6 +8,23 @@ fetch(file)
 })
 
 function parts_page(tipus){
+    
     console.log(tipus)
-    console.log(datas)
+    for(i in adat){
+        console.log(i)
+        if(i == tipus){
+            console.log(datas.tipus)
+        }
+    }
+}
+function getQueryParam(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+}
+
+window.onload = function () {
+    const tipus = getQueryParam('tipus');
+    if (tipus) {
+        parts_page(tipus);
+    }
 }
