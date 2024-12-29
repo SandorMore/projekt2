@@ -48,8 +48,63 @@ hr{
     border-radius: 2px;
 }
 footer{
-    padding: 10px;
+    padding: 3vw;
     margin:0 5% 0 5%; 
     border-radius: 4vh;
     background-color: #f0f500;
+}
+#cards{
+    margin: 0 10% 0 10%;
+    width: 80%;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow: hidden;
+    
+}
+.comp_card{
+    
+    background-color: #f0f500;
+    border-radius: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3vw;
+    height: 100%;
+}
+#comp_types{
+    display: flex;
+    justify-content: center;
+    margin: 0 10% 0 10%;
+}
+.comp_img{
+    height: 120px;
+}
+.comp_prize{
+    align-self:center ;
+}
+.comp_card_big{
+    background-color: #f0f500;
+    border-radius: 4vw;
+    padding: 3vw;
+    grid-column: span 3;
+    grid-row: span 3;
+    row-gap: 1vh;
+    column-gap: 1vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 5vh 25vh 25vh;
+
+}
+.name_div{
+    grid-column: span 2;
+}
+.img_div{
+    grid-row: span 2;
+    border: solid 5px black;
+}
+.price_div{
+    display: flex;
+    justify-content: center;
+    
 }

@@ -44,9 +44,9 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="parts.html?tipus=alaplap" >Alaplap</a></li>
-                            <li><a class="dropdown-item" href="parts.html" onclick="parts_page('CPU')">Processzor</a></li>
-                            <li><a class="dropdown-item" href="parts.html" onclick="parts_page('memory')">Memória</a></li>
-                            <li><a class="dropdown-item" href="parts.html" onclick="parts_page('GPU')">Videókártya</a></li>
+                            <li><a class="dropdown-item" href="parts.html?tipus=processzor" >Processzor</a></li>
+                            <li><a class="dropdown-item" href="parts.html?tipus=memória" >Memória</a></li>
+                            <li><a class="dropdown-item" href="parts.html?tipus=videókártya" >Videókártya</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -55,10 +55,10 @@
                             Perifériák
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="parts.html" onclick="parts_page('motherboard')">Háttértár</a></li>
-                            <li><a class="dropdown-item" href="parts.html" onclick="parts_page('monitor')">Monitor</a></li>
-                            <li><a class="dropdown-item" href="parts.html" onclick="parts_page('keyboard')">Billenytűzet</a></li>
-                            <li><a class="dropdown-item" href="parts.html" onclick="parts_page('mouse')">Egér</a></li>
+                            <li><a class="dropdown-item" href="parts.html?tipus=HDD/SSD" >Háttértár</a></li>
+                            <li><a class="dropdown-item" href="parts.html?tipus=monitor" >Monitor</a></li>
+                            <li><a class="dropdown-item" href="parts.html?tipus=billentyűzet" >Billenytűzet</a></li>
+                            <li><a class="dropdown-item" href="parts.html?tipus=egér" >Egér</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -68,11 +68,9 @@
             </div>
         </div>
     </nav>
-    <div id="main">
-
+    <h3 id="comp_types" style="margin: 10px;"></h3>
+    <div id="cards">
     </div>
-
-    
     <hr>
     <footer class="d-flex flex-column align-items-center">
         <div>
