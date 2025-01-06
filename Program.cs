@@ -72,11 +72,10 @@ public class ComponentManager
     {
         var components = LoadComponents();
         return components
-            .Where(c => c.Type.Contains(query, StringComparison.OrdinalIgnoreCase) ||
-                        c.Name.Contains(query, StringComparison.OrdinalIgnoreCase))
+            .Where(c => c.Type.IndexOf(query, StringComparison.OrdinalIgnoreCase) >= 0 ||
+                        c.Name.IndexOf(query, StringComparison.OrdinalIgnoreCase) >= 0)
             .ToList();
     }
-
     // Keresés árintervallum alapján
     public List<Component> SearchByPriceRange(decimal minPrice, decimal maxPrice)
     {
